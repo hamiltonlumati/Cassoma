@@ -1,0 +1,47 @@
+.container,
+nav .bottom-text {
+    font-family: 'Roboto Slab', serif;
+}
+
+.lampada {
+    width: 100%;
+    height: 200px;
+    display: block;
+    overflow: hidden;
+    color: white;
+}
+
+.lampada .text {
+    position: relative;
+    top: -300px;
+    display: block;
+    width: 50%;
+    margin: 30px 0px 0px 10%;
+}
+
+.lampada img {
+    width: 100%;
+    position: relative;
+    top: -50px;
+    z-index: -1;
+}
+
+.cards {
+    background-color: #CACFD6;
+}
+
+.descricao {
+    background-color: white;
+}
+
+@media only screen and (min-width: 576px) {
+    .lampada {
+        height: 470px;
+    }
+    .lampada img {
+        top: -200px;
+    }
+    .lampada .text {
+        top: -800px;
+    }
+}
